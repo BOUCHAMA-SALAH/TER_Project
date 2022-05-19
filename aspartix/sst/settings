@@ -1,0 +1,7 @@
+#!/bin/sh
+
+## Set path to clingo
+dirClingo=$(dirname $0)/../clingo
+
+## Set path to old clingo (440)
+dirClingoOld=$(dirname $0)/../clingo440
