@@ -49,6 +49,7 @@ data = pd.read_csv("car.csv")
 # diviser le dataset en train et test data
 train, test = train_test_split(data, test_size=0.3)
 
+# selon le choix de l'approache choisit choisir entre la fonction process et process1 
 D_arg = process(train)
 args = list(D_arg.keys())
 
